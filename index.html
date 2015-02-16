@@ -2,9 +2,9 @@
 <html>
 <head>
   <title>Hobbs HW2</title>
-  <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-  <script src="javascript.js"></script> 
-  <script src="jquery-1.11.2.js"></script>
+  <link type="text/css" rel="stylesheet" href="stylesheet.css"/> 
+  <script type="text/javascript" src="jquery-1.11.2.js"></script>
+  <<script src="javascript.js"></script>
 </head>
 <body>
 <h3>Graduate Applicants to Industrial Engineering<h3/>
@@ -23,5 +23,22 @@
 			</tr>
 		</tbody>
 	</table>
+	<!--
+	<script type="text/javascript">
+			$(document).ready(function () {
+				$.getJSON("https://hivelab.org/static/students.json", function (jsonfile) {
+			        var mytable = $("QWERT");
+			        for (var i = 0; i < jsonfile.length; i++) {
+			            mytable.append("<td>" + json[i].Name + "</td>
+			                            <td>" + json[i].GPA + "</td>
+			                            <td>" + json[i].GRE_V + "</td>
+			                            <td>" + json[i].GRE_Q + "</td>
+			                            <td>" + json[i].Essay + "</td>
+			                            <td>" + json[i].Recom + "</td>");
+			        };
+				});
+			});	
+	</script>
+	-->
 </body>
 <html>
